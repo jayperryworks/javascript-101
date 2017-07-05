@@ -526,5 +526,23 @@ function turnLightsOff() {
 
 ---
 
+## BONUS: Node.js
+
+<img src="img/nodejs.png" style="max-height: 450px; border-width: 0; box-shadow: none;" />
+
+--
+
+### Node.js
+* Developed in 2009
+* Built on top of Google Chrome's _V8_ JavaScript engine
+* Open source runtime environment for running server-side JavaScript applications
+* Install it from https://nodejs.org/
+
+--
+
+### Sample app
+
+---
+
 ## Thank you!
 
