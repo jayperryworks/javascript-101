@@ -6,10 +6,9 @@
 ## About me
 
 * @ericmasiello
-* eric.j.masiello@gmail.com
 * Fullstack JavaScript Engineer @ Vistaprint Digital
-* Co-Instructor for FEWD 31
-* Co-Author of Mastering React Native
+* Instructor for Front-End Web Development at General Assembly
+* Co-Author of _Mastering React Native_
 
 --
 
@@ -23,49 +22,51 @@
 
 ## Agenda
 
-1. TODO
-2. TODO
-3. TODO
+1. Introduction to programming
+2. What is JavaScript?
+3. JavaScript & the DOM
+4. JavaScript syntax
+5. Responding to "events"
+6. BONUS: JavaScript variables and data types
 
 ---
 
-# Introduction to Programming
+## Introduction to programming
 
 The computer will do what you tell it to do.
 
 --
 
 
-## What is a Program
+### What is a program?
 
 A __program__ is a set of instructions that you write to tell a computer what to do
 
 --
 
-## What Is Programming
+### What is programming
 
 __Programming__ is the task of writing those instructions in a language that the computer can understand.
 
 
 --
 
-## Becoming A Programmer
+### Becoming a programmer
 
 It isn't about the programming language - it's a way of thinking.
 
 --
 
-## How Computers 'Think'
+### How computers 'think'
 
-They don't.
+__They don't__.
 
-Buuut, they pretend to by sequentially executing simple instructions.
-
-The only things a computer knows are the things we tell it.
+* They pretend to by sequentially executing simple instructions.
+* The only things a computer knows are the things we tell it.
 
 -- 
 
-## Low-level Programming Language
+### Low-level programming language
 Assembly Code
 
 ```
@@ -73,24 +74,23 @@ global  _start
 section .text
 _start:
     ; write(1, message, 13)
-    mov     rax, 1                  
-    mov     rdi, 1                  
-    mov     rsi, message            
-    mov     rdx, 13                 
-    syscall                         
+    mov     rax, 1
+    mov     rdi, 1
+    mov     rsi, message
+    mov     rdx, 13
+    syscall
     write
-
     ; exit(0)
-    mov     eax, 60                 
-    xor     rdi, rdi                
-    syscall                         
+    mov     eax, 60
+    xor     rdi, rdi
+    syscall
 message:
     db      "Hello, World", 10
 ```
 
 --
 
-## High-level Programming Language
+### High-level programming language
 JavaScript
 
 ```
@@ -99,7 +99,7 @@ alert('Hello, World!')
 
 ---
 
-## What Is JavaScript?
+## What is JavaScript?
 
 - Insanely popular
 - High level syntax, low barrier to entry
@@ -113,7 +113,7 @@ Note:
 
 --
 
-### In the Beginning, There was HTML
+### In the beginning, there was HTML
 
 <img src="img/html.jpg" style="max-width:800px; margin-bottom: 20px;">
 
@@ -127,7 +127,7 @@ Note:
 
 --
 
-### Make it Pretty(ish)
+### Make it pretty(ish)
 
 <img src="img/styles.jpg" style="max-width:800px; margin-bottom: 20px;">
 
@@ -135,7 +135,7 @@ Note:
 
 --
 
-### Make it Interactive!
+### Make it interactive!
 
 <img src="img/googlemaps.png" style="max-width:800px; margin-bottom: 20px;" alt="Google Maps">
 
@@ -162,17 +162,17 @@ Note:
 
 ---
 
-## What Can JavaScript Do?
+## JavaScript & the DOM
+
+--
+
+## What can JavaScript do?
 
 Respond to user interaction
 
 - https://generalassemb.ly/education/digital-marketing
 - https://isl.co/
 - https://websdev.github.io/stencil
-
----
-
-## What's the DOM?
 
 --
 
@@ -188,7 +188,28 @@ Note:
 
 --
 
-### The Family Tree
+### The family tree in code
+
+```html
+<html>
+    <head>
+        <title>The Title</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>...</header>
+        <header>...</header>
+        <section>
+            <h1>My Website!</h1>
+            <p>lorem ipusm <a href="#">dolar</a></p>
+        <section>
+    </body>
+</html>
+```
+
+--
+
+### The family tree visualized
 
 ![DOM Tree](img/dom.png)
 
@@ -204,7 +225,7 @@ Like with any language, there are formal rules around how to write it. This is t
 
 --
 
-## JavaScript Syntax Examples
+### JavaScript syntax examples
 
 * Semicolon - end of a statement
 * Quotation Marks - a String (of characters)
@@ -215,7 +236,7 @@ document.getElementById('stopButton').onclick = illuminateRed;
 
 --
 
-## JavaScript Syntax - Comments
+### JavaScript syntax - comments
 
 ```javascript
 // Single Line Comments
@@ -231,7 +252,7 @@ comments
 
 --
 
-## "Comment Out"
+### "Comment out"
 Use comments to stop the program from running one or more lines of code
 
 ```js
@@ -245,7 +266,10 @@ console.log('Hello world!');
 
 ---
 
-## Definitions
+## Responding to "events"
+
+Note:
+- Let's cover some basic defintions
 
 --
 
@@ -267,11 +291,11 @@ Functions can be easily rerun (e.g. on every click, run these instructions)
 
 A user interaction
 
-e.g. click, scroll, mouseover, etc
+e.g. click, scroll, mouseover, etc.
 
 --
 
-### Event Listener/Handler
+### Event listener/handler
 
 A `function` whose job is to respond to some user input.
 
@@ -280,13 +304,12 @@ A `function` whose job is to respond to some user input.
 ### Example
 
 ```js
-document.getElementById('primary').onclick = function() {
+document.getElementById('stopButton').onclick = function() {
  // do stuff!
 }
 ```
 
 ---
-
 
 ## How we solve problems in JavaScript
 
@@ -295,6 +318,7 @@ document.getElementById('primary').onclick = function() {
 3.  Respond to that event
     - Add, remove or modify HTML
     - Add, remove or modify CSS
+    - or anything else :)
 
 --
 
@@ -324,16 +348,14 @@ document.getElementById('primary').onclick = function() {
 
 ![GeneralAssemb.ly](img/exercise_icon_md.png)
 
-## Traffic Light
+## Traffic light
 
 http://codepen.io/ericmasiello/pen/vxbgXo
 - Fork this on Codepen
 
 ---
 
-## Variables
-
-What are variables?
+## BONUS: Variables & data types
 
 --
 
@@ -359,9 +381,10 @@ The action of saving a value to a variable is called assignment.
 
 --
 
-### Variable Declaration
+### Variable declaration
 
-Telling our program that we wish to make a variable. We choose the name.
+* Tell our program that we wish to make a variable
+* We choose the name
 
 ```javascript
 var a;
@@ -369,7 +392,9 @@ var a;
 
 --
 
-### Variable Assignment
+### Variable assignment
+
+* Give our declared variable a value
 
 ```javascript
 a = 13;
@@ -377,7 +402,7 @@ a = 13;
 
 --
 
-### Variable Assignment and Declaration
+### Variable assignment and declaration
 
 ```javascript
 // Do assignment and declaration separately
@@ -390,7 +415,7 @@ var b = a + 2;
 
 --
 
-### Variable Reassignment
+### Variable reassignment
 
 ```javascript
 var a = 'Eric';
@@ -400,7 +425,7 @@ a = 'Erika';
 
 --
 
-### Variable Naming Conventions
+### Variable naming conventions
 
 Use "camel case":
 - start with lower case letter
@@ -412,7 +437,7 @@ var numberOfStudents = 20;
 
 ---
 
-## Data Types
+## Data types
 
 Parts of variable:
 
@@ -421,17 +446,17 @@ var numberOfStudents = 20;
 ```
 
 - name: `numberOfStudents`
-- value: `10`
+- value: `20`
 
 --
 
-### Data Types
+### Data types
 
 What can those _values_ be??
 
 --
 
-### JavaScript Data Types
+### JavaScript data types
 
 - *Number*
 - *String*
@@ -464,9 +489,9 @@ Text, a collection of characters.
 
 ```javascript
 
-var firstName = 'Erika';
+var firstName = 'Eric';
 
-var lastName = 'Lewis';
+var lastName = 'Masiello';
 
 var fullName = firstName + ' ' + lastName;
 ```
@@ -494,9 +519,10 @@ function turnLightsOff() {
 
 ![GeneralAssemb.ly](img/code_along.png)
 
-## Score Keeper
+## Score keeper
 
 [CodePen](https://codepen.io/ericmasiello/pen/VWXWEB?editors=1010)
+- Fork this on Codepen
 
 ---
 
