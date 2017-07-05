@@ -28,6 +28,7 @@
 4. JavaScript syntax
 5. Responding to "events"
 6. BONUS: JavaScript variables and data types
+7. BONUS: Node.js
 
 ---
 
@@ -540,7 +541,14 @@ function turnLightsOff() {
 
 --
 
-### Sample app
+### Sample Node app
+
+* Copy this code http://bit.ly/2tpAOXZ
+* Save as add.js
+* Open your command line tool
+```
+node add.js 3 4
+```
 
 ---
 
