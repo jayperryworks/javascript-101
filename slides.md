@@ -18,6 +18,10 @@
 
 <a target="_blank" href="https://www.amazon.com/gp/product/1785885782/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1785885782&linkCode=as2&tag=ericmasiello-20&linkId=0b797f6960a050d6567fd26505307fec">Mastering React Native</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=ericmasiello-20&l=am2&o=1&a=1785885782" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
+--
+
+### Your turn to share :)
+
 ---
 
 ## Agenda
@@ -167,13 +171,11 @@ Note:
 
 --
 
-## What can JavaScript do?
+## JavaScript in the wild
 
-Respond to user interaction
-
-- https://generalassemb.ly/education/digital-marketing
-- https://isl.co/
-- https://websdev.github.io/stencil
+- [Form Validation](http://formvalidation.io/examples/adjusting-feedback-icon-position/)
+- [Dynamic Navigation](https://generalassemb.ly/education/digital-marketing)
+- [UI Component Library](https://websdev.github.io/stencil)
 
 --
 
@@ -267,24 +269,12 @@ console.log('Hello world!');
 
 ---
 
-## Responding to "events"
+## Responding to &ldquo;events&rdquo;
+
+`event + event handler => run some code`
 
 Note:
-- Let's cover some basic defintions
-
---
-
-### Function
-
-A named, self-contained set of instructions that is reusable. A "recipe" in our programming-as-cooking metaphor.
-
-```javascript
-function makeGrilledCheese() {
-  ...
-}
-```
-
-Functions can be easily rerun (e.g. on every click, run these instructions)
+- Let's cover some basic definitions
 
 --
 
@@ -299,6 +289,20 @@ e.g. click, scroll, mouseover, etc.
 ### Event listener/handler
 
 A `function` whose job is to respond to some user input.
+
+--
+
+### Function
+
+A named, self-contained set of instructions that is reusable. A "recipe" in our programming-as-cooking metaphor.
+
+```javascript
+function makeGrilledCheese() {
+  ...
+}
+```
+
+Functions can be easily rerun (e.g. on every click, run these instructions)
 
 --
 
@@ -484,6 +488,18 @@ var sum = myInteger + myFloat;
 
 --
 
+### Common JavaScript Math Operators
+
+| Operator        | Description           | Example  |
+| ------------- |:-------------:| -----:|
+| `+`      | Addition | `x = y + 2;` |
+| `-`      | Subtraction | `x = y - 2;` |
+| `*`      | Multiplication | `x = y * 2;` |
+| `/`      | Division | `x = y / 2;` |
+| `%`      | Modulus (division remainder) | `x = y % 2;` |
+
+--
+
 ### String
 
 Text, a collection of characters.
@@ -549,6 +565,22 @@ function turnLightsOff() {
 ```
 node add.js 3 4
 ```
+
+---
+
+## Resources
+
+### Books
+* [You Don't Know JS: Up & Going](http://shop.oreilly.com/product/0636920039303.do)
+* [HTML and CSS: Design and Build Websites](https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_2?ie=UTF8&qid=1502034868&sr=8-2&keywords=html+css+javascript)
+
+### Online
+* [Code Academy (Free)](https://www.codecademy.com/)
+
+### In Person Courses
+* [Web Development Immersive (Full Time)](https://generalassemb.ly/education/web-development-immersive)
+* [Front End Development (Part time)](https://generalassemb.ly/education/front-end-web-development)
+* [JavaScript (Part Time)](https://generalassemb.ly/education/javascript-development)
 
 ---
 
