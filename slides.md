@@ -322,7 +322,7 @@ document.getElementById('stopButton').onclick = function() {
 
 ---
 
-## How we solve problems in JavaScript
+## How we solve problems in the browser with JavaScript
 
 1.  Find some elements on the page
 2.  Listen for some user interaction (click, scroll, mouseover)
