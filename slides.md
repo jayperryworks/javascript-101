@@ -364,6 +364,16 @@ document.getElementById('stopButton').onclick = function() {
 http://codepen.io/ericmasiello/pen/vxbgXo
 - Fork this on Codepen
 
+--
+
+## Traffic light Assignment
+*15 mins*
+1. Make the slow button turn the 2nd light yellow
+2. Make the go button turn the last light green
+3. **BONUS:** Make it so that I can click the lights themselves to turn them on
+
+*If you finish early, help others around you if they're stuck.*
+
 ---
 
 ## BONUS: Variables & data types
@@ -546,6 +556,15 @@ function turnLightsOff() {
 
 [CodePen](https://codepen.io/ericmasiello/pen/VWXWEB?editors=1010)
 - Fork this on Codepen
+
+--
+
+## Score keeper Assignment
+*15 mins*
+1. Add a button labeled "Double" that takes the current score and doubles it
+2. Add a button labeled "Half" that takes the current score and cuts it in half
+
+*If you finish early, help others around you if they're stuck.*
 
 ---
 
