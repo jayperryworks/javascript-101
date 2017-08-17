@@ -267,6 +267,12 @@ console.log('Hello world!');
 // console.log('Hello GA');
 ```
 
+--
+
+### Basic JavaScript Syntax
+
+[https://www.w3schools.com/js/js_syntax.asp](https://www.w3schools.com/js/js_syntax.asp)
+
 ---
 
 ## Responding to &ldquo;events&rdquo;
