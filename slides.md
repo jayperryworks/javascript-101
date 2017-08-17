@@ -576,14 +576,12 @@ node add.js 3 4
 
 ## Resources
 
-### Books
+* **Books**
 * [You Don't Know JS: Up & Going](http://shop.oreilly.com/product/0636920039303.do)
 * [HTML and CSS: Design and Build Websites](https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_2?ie=UTF8&qid=1502034868&sr=8-2&keywords=html+css+javascript)
-
-### Online
+* **Online**
 * [Code Academy (Free)](https://www.codecademy.com/)
-
-### In Person Courses
+* **In Person Courses**
 * [Web Development Immersive (Full Time)](https://generalassemb.ly/education/web-development-immersive)
 * [Front End Development (Part time)](https://generalassemb.ly/education/front-end-web-development)
 * [JavaScript (Part Time)](https://generalassemb.ly/education/javascript-development)
