@@ -53,6 +53,13 @@ A __program__ is a set of instructions that you write to tell a computer what to
 
 __Programming__ is the task of writing those instructions in a language that the computer can understand.
 
+--
+
+### What is programming language
+
+__Programming language__ is a formal language that specifies a _set of instructions_ that can be used to produce various kinds of output.
+
+(e.g. JavaScript)
 
 --
 
@@ -71,7 +78,7 @@ __They don't__.
 
 -- 
 
-### Low-level programming language
+## Low-level Programming Language
 Assembly Code
 
 ```
@@ -79,23 +86,24 @@ global  _start
 section .text
 _start:
     ; write(1, message, 13)
-    mov     rax, 1
-    mov     rdi, 1
-    mov     rsi, message
-    mov     rdx, 13
+    mov  rax, 11
+    mov  rdi, 1
+    mov  rsi, message
+    mov  rdx, 13
     syscall
     write
+
     ; exit(0)
-    mov     eax, 60
-    xor     rdi, rdi
+    mov  eax, 60
+    xor  rdi, rdi
     syscall
 message:
-    db      "Hello, World", 10
+    db  "Hello, World", 10
 ```
 
 --
 
-### High-level programming language
+## High-level programming language
 JavaScript
 
 ```
@@ -165,6 +173,19 @@ Note:
 - Netscape renamed it to JavaScript to capitalize on the cachet of Java at the time
 - If you ever do a job interview, don't confuse these two languages
 
+--
+
+## JavaScript vs. Javascript
+
+- Officially, its "JavaScript"
+- In reality, no one cares
+
+<style type="text/css">
+#javascript-vs-javascript {
+    text-transform: none;
+}
+</style>
+
 ---
 
 ## JavaScript & the DOM
@@ -215,6 +236,30 @@ Note:
 ### The family tree visualized
 
 ![DOM Tree](img/dom.png)
+
+--
+
+### How do we add JavaScript to a webpage?
+
+### `<script></script>`
+
+--
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <!-- your webpage contents -->
+    ...
+
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+Put it right before the closing `</body>` element
 
 ---
 
@@ -286,9 +331,14 @@ Note:
 
 ### Event
 
-A user interaction
+Typically a user interaction
 
-e.g. click, scroll, mouseover, etc.
+e.g. click, scroll, mouseover (hover), etc.
+
+```html
+<!-- I want to know when someone clicks on this button -->
+<button id="dealButton">Deal cards!</button>
+```
 
 --
 
@@ -296,15 +346,20 @@ e.g. click, scroll, mouseover, etc.
 
 A `function` whose job is to respond to some user input.
 
+```js
+// I want to know whenever someone *clicks* on the element
+// with an id of "dealButton"
+```
+
 --
 
 ### Function
 
-A named, self-contained set of instructions that is reusable. A "recipe" in our programming-as-cooking metaphor.
+A named, self-contained set of instructions that is reusable.
 
 ```javascript
-function makeGrilledCheese() {
-  ...
+function dealRandomCard() {
+  // code here that picks a card at random
 }
 ```
 
@@ -315,12 +370,15 @@ Functions can be easily rerun (e.g. on every click, run these instructions)
 ### Example
 
 ```js
-document.getElementById('stopButton').onclick = function() {
- // do stuff!
+function dealRandomCard() {
+  // code here that picks a card at random
 }
-```
 
----
+// whenever someone clicks the html tag with an id="dealButton",
+// run the dealRandomCard function
+document.querySelector('#dealButton').onclick = dealRandomCard;
+```
+--
 
 ## How we solve problems in the browser with JavaScript
 
@@ -578,7 +636,7 @@ function turnLightsOff() {
 * Developed in 2009
 * Built on top of Google Chrome's _V8_ JavaScript engine
 * Open source runtime environment for running server-side JavaScript applications
-* Install it from https://nodejs.org/
+* Install the _LTS_ version from https://nodejs.org/
 
 --
 
@@ -607,5 +665,5 @@ node add.js 3 4
 
 ---
 
-## Thank you!
+## Thank you! 🙏🏼🙏🏼🙏🏼
 
