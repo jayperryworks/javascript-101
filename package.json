@@ -1,0 +1,25 @@
+{
+  "name": "javascript-101",
+  "version": "1.0.0",
+  "description": "![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png \"GeneralAssemb.ly\")",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericmasiello/javascript-101.git"
+  },
+  "author": "Eric Masiello <eric.j.masiello@gmail.com> (http://synbydesign.com/)",
+  "license": "NO LICENSE",
+  "bugs": {
+    "url": "https://github.com/ericmasiello/javascript-101/issues"
+  },
+  "homepage": "https://github.com/ericmasiello/javascript-101#readme",
+  "devDependencies": {
+    "serve": "~6.5.0"
+  }
+}
