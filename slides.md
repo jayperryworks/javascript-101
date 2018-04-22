@@ -31,6 +31,12 @@
 
 ---
 
+## Setting expectations
+
+2 hours is not a lot of time
+
+---
+
 ## Introduction to programming
 
 The computer will do what you tell it to do.
