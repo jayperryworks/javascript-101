@@ -74,8 +74,8 @@ It isn't about the programming language - it's a way of thinking.
 
 __They don't__.
 
-* They pretend to by sequentially executing simple instructions.
-* The only things a computer knows are the things we tell it.
+* They pretend to by sequentially executing simple instructions very quickly
+* The only things a computer knows are the things we tell it
 
 -- 
 
@@ -108,7 +108,7 @@ message:
 JavaScript
 
 ```
-alert('Hello, World!')
+alert('Hello, World!');
 ```
 
 ---
@@ -116,7 +116,7 @@ alert('Hello, World!')
 ## What is JavaScript?
 
 - Insanely popular
-- High level syntax, low barrier to entry
+- High level syntax, low(ish) barrier to entry
 - The only language that runs in the browser
 - Can be used "server-side" or "client-side"
 
@@ -370,6 +370,7 @@ Functions can be easily rerun (e.g. on every click, run these instructions)
 
 ### Example
 
+JS
 ```js
 function dealRandomCard() {
   // code here that picks a card at random
@@ -379,7 +380,12 @@ function dealRandomCard() {
 // run the dealRandomCard function
 document.querySelector('#dealButton').onclick = dealRandomCard;
 ```
---
+HTML
+```html
+<!-- I want to know when someone clicks on this button -->
+<button id="dealButton">Deal cards!</button>
+```
+---
 
 ## How we solve problems in the browser with JavaScript
 
@@ -448,16 +454,8 @@ JavaScript variables are containers for storing data values.
 ### Variables
 
 ```javascript
-var a = 13;
+var age = 13;
 ```
-
---
-
-### Variables
-
-We can tell our program to remember values for us to use later on.
-
-The action of saving a value to a variable is called assignment.
 
 --
 
@@ -467,17 +465,17 @@ The action of saving a value to a variable is called assignment.
 * We choose the name
 
 ```javascript
-var a;
+var age;
 ```
 
 --
 
 ### Variable assignment
 
-* Give our declared variable a value
+Give our declared variable a value
 
 ```javascript
-a = 13;
+age = 13;
 ```
 
 --
@@ -487,7 +485,7 @@ a = 13;
 ```javascript
 // Do assignment and declaration separately
 var a;
-a = 13;
+a = 22;
 
 // Do assignment and declaration at the same time
 var b = a + 2;
@@ -585,6 +583,7 @@ var firstName = 'Eric';
 
 var lastName = 'Masiello';
 
+// fullName = 'Eric Masiello'
 var fullName = firstName + ' ' + lastName;
 ```
 
