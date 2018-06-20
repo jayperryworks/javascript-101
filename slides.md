@@ -272,7 +272,15 @@ Like with any language, there are formal rules around how to write it. This is t
 * Quotation Marks - a String (of characters)
 
 ```javascript
-document.getElementById('stopButton').onclick = illuminateRed;
+function illuminateRed() {
+    // do stuff
+}
+
+function setupEvents() {
+    document.getElementById('stopButton').onclick = illuminateRed;
+}
+
+setupEvents();
 ```
 
 --
