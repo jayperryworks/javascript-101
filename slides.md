@@ -68,15 +68,6 @@ A formal language that specifies a _set of instructions_ that can be used to pro
 
 It isn't about the programming language - it's a way of thinking.
 
---
-
-### How computers 'think'
-
-__They don't__.
-
-* They pretend to by sequentially executing simple instructions very quickly
-* The only things a computer knows are the things we tell it
-
 -- 
 
 ## Low-level Programming Language
