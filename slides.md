@@ -536,13 +536,15 @@ What can those _values_ be??
 
 ### JavaScript data types
 
+- *Boolean*
+- Null
+- Undefined
 - *Number*
 - *String*
-- *Boolean*
-- Undefined
-- Null
-- Object
-- Function
+- Symbol
+- Object\* 
+
+\* includes Dates, Arrays, Regular Expressions, Functions, and more
 
 --
 
