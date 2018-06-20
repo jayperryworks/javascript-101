@@ -256,7 +256,9 @@ Put it right before the closing `</body>` element
 
 ## Syntax
 
-__Syntax:__ Spelling and grammar rules of a programming language. 
+"...set of rules that defines the combinations of symbols that are considered to be a correctly structured \[code\] in that language."
+
+\- [Wikipedia](https://en.wikipedia.org/wiki/Syntax_(programming_languages)
 
 
 Note:
