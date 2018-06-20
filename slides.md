@@ -194,8 +194,8 @@ Note:
 ### DOM
 
 * Document Object Model
-* Tree structure
-* Allows JavaScript to read or manipulate the HTML of a webpage
+* Allows JavaScript to read and manipulate the HTML of a webpage
+* Tree data structure
 
 Note:
 - This includes changing CSS properties
@@ -356,7 +356,7 @@ A `function` whose job is to respond to some user input.
 
 ### Function
 
-A named, self-contained set of instructions that is reusable.
+A self-contained set of instructions that can be reusable
 
 ```javascript
 function dealRandomCard() {
