@@ -44,21 +44,21 @@ The computer will do what you tell it to do.
 --
 
 
-### What is a program?
+### What is a program (or app)?
 
-A __program__ is a set of instructions that you write to tell a computer what to do
+A set of written instructions that explicitly tells the computer what to do
 
 --
 
 ### What is programming
 
-__Programming__ is the task of writing those instructions in a language that the computer can understand.
+The task of writing those instructions in a language that the computer can understand.
 
 --
 
 ### What is programming language
 
-__Programming language__ is a formal language that specifies a _set of instructions_ that can be used to produce various kinds of output.
+A formal language that specifies a _set of instructions_ that can be used to produce various kinds of output.
 
 (e.g. JavaScript)
 
