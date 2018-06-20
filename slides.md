@@ -186,9 +186,8 @@ Note:
 
 ## JavaScript in the wild
 
-- [Form Validation](http://formvalidation.io/examples/adjusting-feedback-icon-position/)
+- [Form Validation](https://formvalidation.io/guide/plugins/bootstrap/)
 - [Dynamic Navigation](https://generalassemb.ly/education/digital-marketing)
-- [UI Component Library](https://websdev.github.io/stencil)
 
 --
 
