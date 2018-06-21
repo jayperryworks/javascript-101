@@ -21,13 +21,12 @@
 
 ## Agenda
 
-1. Introduction to programming
-2. What is JavaScript?
-3. JavaScript & the DOM
-4. JavaScript syntax
-5. Responding to "events"
-6. BONUS: JavaScript variables and data types
-7. BONUS: Node.js
+1. What is JavaScript?
+2. JavaScript & the DOM
+3. JavaScript syntax
+4. Responding to "events"
+5. BONUS: JavaScript variables and data types
+6. BONUS: Node.js
 
 ---
 
@@ -35,38 +34,26 @@
 
 2 hours is not a lot of time
 
+
 ---
-
-## Introduction to programming
-
-The computer will do what you tell it to do.
-
---
-
-
-### What is a program (or app)?
-
-A set of written instructions that explicitly tells the computer what to do
-
---
-
-### What is programming
-
-The task of writing those instructions in a language that the computer can understand.
-
---
-
-### What is programming language
-
-A formal language that specifies a _set of instructions_ that can be used to produce various kinds of output.
-
-(e.g. JavaScript)
-
---
 
 ### Becoming a programmer
 
-It isn't about the programming language - it's a way of thinking.
+It isn't about the programming language - _it's a way of thinking._
+
+---
+
+## What is JavaScript?
+
+- Insanely popular
+- High level syntax, low(ish) barrier to entry
+- The only language that runs in the browser
+- Can be used "server-side" or "client-side"
+
+Note:
+
+- Hasn't always been only browser language, nor will it always be (probably)
+- Runs on the server, in robots, databases, etc
 
 -- 
 
@@ -98,23 +85,9 @@ message:
 ## High-level programming language
 JavaScript
 
+```js
+console.log('Hello, World!');
 ```
-alert('Hello, World!');
-```
-
----
-
-## What is JavaScript?
-
-- Insanely popular
-- High level syntax, low(ish) barrier to entry
-- The only language that runs in the browser
-- Can be used "server-side" or "client-side"
-
-Note:
-
-- Hasn't always been only browser language, nor will it always be (probably)
-- Runs on the server, in robots, databases, etc
 
 --
 
