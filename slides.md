@@ -3,7 +3,7 @@
 
 ---
 
-## About me
+## About me 🤓
 
 * @ericmasiello
 * Fullstack JavaScript Engineer @ Vistaprint Digital
@@ -25,7 +25,7 @@
 2. JavaScript & the DOM
 3. JavaScript syntax
 4. Responding to "events"
-5. BONUS: JavaScript variables and data types
+5. JavaScript variables and data types
 6. BONUS: Node.js
 
 ---
@@ -52,42 +52,9 @@ It isn't about the programming language - _it's a way of thinking._
 
 Note:
 
+- High level syntax means you don't need to program to the specific hardware, the language is more generalized and typically easier to write
 - Hasn't always been only browser language, nor will it always be (probably)
 - Runs on the server, in robots, databases, etc
-
--- 
-
-## Low-level Programming Language
-Assembly Code
-
-```
-global  _start
-section .text
-_start:
-    ; write(1, message, 13)
-    mov  rax, 11
-    mov  rdi, 1
-    mov  rsi, message
-    mov  rdx, 13
-    syscall
-    write
-
-    ; exit(0)
-    mov  eax, 60
-    xor  rdi, rdi
-    syscall
-message:
-    db  "Hello, World", 10
-```
-
---
-
-## High-level programming language
-JavaScript
-
-```js
-console.log('Hello, World!');
-```
 
 --
 
@@ -414,17 +381,13 @@ http://codepen.io/ericmasiello/pen/vxbgXo
 
 ---
 
-## BONUS: Variables & data types
+## Variables & data types
 
 --
 
-### Variables
+### Variable
 
-JavaScript variables are containers for storing data values.
-
---
-
-### Variables
+Containers for storing data values.
 
 ```javascript
 var age = 13;
@@ -434,8 +397,9 @@ var age = 13;
 
 ### Variable declaration
 
-* Tell our program that we wish to make a variable
+* `var` keyword tells our program that we wish to make a variable
 * We choose the name
+* Variables should only be _declared_ once
 
 ```javascript
 var age;
@@ -445,7 +409,8 @@ var age;
 
 ### Variable assignment
 
-Give our declared variable a value
+* Give our declared variable a value
+* This can happen multiple times
 
 ```javascript
 age = 13;
@@ -476,28 +441,39 @@ a = 'Erika';
 
 --
 
-### Variable naming conventions
+### Name variables using "camelcase"
 
-Use "camel case":
-- start with lower case letter
-- each new word is capitalized
+- Start with lowercase letter
+- Each new word is capitalized
 
 ```javascript
 var numberOfStudents = 20;
 ```
 
+--
+
+### Variable naming rules (syntax)
+
+- Names can contain letters, digits, underscores, and dollar signs
+- Names must begin with a letter, $, or _
+- Names are case sensitive (y and Y are different variables)
+- Reserved words (e.g. `function` or `while`) cannot be used as names
+
 ---
 
 ## Data types
 
-Parts of variable:
+--
+
+### Breaking down this line of code
 
 ```js
 var numberOfStudents = 20;
 ```
 
-- name: `numberOfStudents`
-- value: `20`
+- JavaScript reservered word: `var`
+- Name: `numberOfStudents`
+- Value: `20`
 
 --
 
@@ -544,7 +520,9 @@ var sum = myInteger + myFloat;
 | `-`      | Subtraction | `x = y - 2;` |
 | `*`      | Multiplication | `x = y * 2;` |
 | `/`      | Division | `x = y / 2;` |
-| `%`      | Modulus (division remainder) | `x = y % 2;` |
+| `%`      | Remainder | `x = y % 2;` |
+
+[JavaScript Arithmetic Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
 
 --
 
@@ -628,12 +606,12 @@ node add.js 3 4
 
 ## Resources
 
-* **Books**
+* _Books_
 * [You Don't Know JS: Up & Going](http://shop.oreilly.com/product/0636920039303.do)
 * [HTML and CSS: Design and Build Websites](https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_2?ie=UTF8&qid=1502034868&sr=8-2&keywords=html+css+javascript)
-* **Online**
+* _Online_
 * [Code Academy (Free)](https://www.codecademy.com/)
-* **In Person Courses**
+* _In Person Courses_
 * [Web Development Immersive (Full Time)](https://generalassemb.ly/education/web-development-immersive)
 * [Front End Development (Part time)](https://generalassemb.ly/education/front-end-web-development)
 * [JavaScript (Part Time)](https://generalassemb.ly/education/javascript-development)
