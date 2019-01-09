@@ -120,30 +120,11 @@ Note:
 
 ---
 
-## JavaScript & the DOM
+## The DOM
 
 --
 
-## JavaScript in the wild
-
-- [Form Validation](https://formvalidation.io/guide/plugins/bootstrap/)
-- [Dynamic Navigation](https://generalassemb.ly/education/digital-marketing)
-
---
-
-### DOM
-
-* Document Object Model
-* Allows JavaScript to read and manipulate the HTML of a webpage
-* Tree data structure
-
-Note:
-- This includes changing CSS properties
-- Or adding/removing CSS classes from HTML elements
-
---
-
-### The family tree in code
+### HTML
 
 ```html
 <html>
@@ -161,12 +142,48 @@ Note:
     </body>
 </html>
 ```
+The browser interprets this code, using it to create the initial DOM when viewing a web page
+
+--
+
+### DOM: Document Object Model
+
+> Essentially, the DOM is a mechanism managed by your web browser that represents what you _actually_ see when you look at any web page. It takes HTML, CSS, and instructions written in JavaScript to decide what it should display at any moment.
+
+* Allows JavaScript to read and manipulate the HTML of a webpage
+* Tree data structure
+
+Note:
+- This includes changing CSS properties
+- Or adding/removing CSS classes from HTML elements
 
 --
 
 ### The family tree visualized
 
 ![DOM Tree](img/dom.png)
+
+--
+
+### JavaScript manipulating the DOM
+
+```js
+// Create a <p> node
+var node = document.createElement('p');
+// Create a text node
+var textnode = document.createTextNode('Hello world');
+// Append the text to <p>
+node.appendChild(textnode);
+// Append <p> to another html element with id="header"
+document.querySelector('#header').appendChild(node);
+```
+
+--
+
+## JavaScript in the wild
+
+- [Form Validation](https://formvalidation.io/guide/plugins/bootstrap/)
+- [Dynamic Navigation](https://generalassemb.ly/education/digital-marketing)
 
 --
 
