@@ -628,6 +628,7 @@ node add.js 3 4
 * [HTML and CSS: Design and Build Websites](https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_2?ie=UTF8&qid=1502034868&sr=8-2&keywords=html+css+javascript)
 * _Online_
 * [Code Academy (Free)](https://www.codecademy.com/)
+* [JavaScript 30 (Free)](https://javascript30.com/)
 * _In Person Courses_
 * [Web Development Immersive (Full Time)](https://generalassemb.ly/education/web-development-immersive)
 * [Front End Development (Part time)](https://generalassemb.ly/education/front-end-web-development)
