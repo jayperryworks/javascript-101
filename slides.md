@@ -6,7 +6,7 @@
 ## About me 🤓
 
 * @ericmasiello
-* Fullstack JavaScript Engineer @ Vistaprint Digital
+* UI Architect @ Vistaprint Digital
 * Front-End Web Development (FEWD) Instructor at General Assembly
 * Co-Author of _Mastering React Native_
 
@@ -120,62 +120,127 @@ Note:
 
 ---
 
-## The DOM
+## What's the DOM?
 
 --
 
-### HTML
+## Browser rendering in action
+
+[![Browser Rendering Diagram](img/browser-rendering-dom-diagram.png)](img/browser-rendering-dom-diagram.png)
+
+--
+
+
+## DOM: Document Object Model
+
+> Essentially, the DOM is an internal data structure managed by web browsers that represents what you _actually_ see when you look at any web page. It takes **HTML**, **CSS**, and instructions written in **JavaScript** to decide what it should display at any moment.
+
+--
+
+## DOM: Document Object Model
+
+- Tree data structure managed by the web browser
+- Exposes an "API" to JavaScript allowing web developers to:
+ - Manipulate what is rendered to the screen
+ - Respond to interactions (e.g. specify what happens when a user clicks)
+
+Note:
+
+- DOM is techncially not part of the JavaScript language. Its part of the browser
+
+---
+
+## `document` object
+
+ - Browser exposes the DOM to JavaScript via the `document` object
+ - Most of what you do with client-side JavaScript revolves around manipulating the DOM via the `document` object
+
+ ```js
+// Create a <p> node
+var pNode = document.createElement('p');
+// Create a text node
+var textNode = document.createTextNode('Hello world');
+// Append the text to <p>
+pNode.appendChild(textNode);
+// Append <p>Hello world</p> to <body>
+document.querySelector('body').appendChild(pNode);
+```
+
+-- 
+
+## Getting data from the DOM
+
+| Method Name | Description |
+| --- | --- |
+| `.getElementById()` | Gets a single element by an ID selector |
+| `.querySelector()` | Gets a single element matching the selector |
+| `.querySelectorAll()` | Gets a list of elements matching the selector |
+\* There are additional methods for getting DOM nodes
+
+--
+
+## `getElementById`
 
 ```html
 <html>
-    <head>
-        <title>The Title</title>
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <header>...</header>
-        <header>...</header>
-        <section>
-            <h1>My Website!</h1>
-            <p>lorem ipusm <a href="#">dolar</a></p>
-        <section>
-    </body>
+  <body>
+    <h1 id="title">The title</h1>
+    <p className="message">foo</p>
+    <p>bar</p>
+    <p className="message">baz</p>
+  </body>
 </html>
 ```
-The browser interprets this code, using it to create the initial DOM when viewing a web page
-
---
-
-### DOM: Document Object Model
-
-> Essentially, the DOM is a mechanism managed by your web browser that represents what you _actually_ see when you look at any web page. It takes HTML, CSS, and instructions written in JavaScript to decide what it should display at any moment.
-
-* Allows JavaScript to read and manipulate the HTML of a webpage
-* Tree data structure
-
-Note:
-- This includes changing CSS properties
-- Or adding/removing CSS classes from HTML elements
-
---
-
-### The family tree visualized
-
-![DOM Tree](img/dom.png)
-
---
-
-### JavaScript manipulating the DOM
 
 ```js
-// Create a <p> node
-var node = document.createElement('p');
-// Create a text node
-var textnode = document.createTextNode('Hello world');
-// Append the text to <p>
-node.appendChild(textnode);
-// Append <p> to another html element with id="header"
-document.querySelector('#header').appendChild(node);
+// returns a single Node
+var titleElement = document.getElementById('title');
+```
+
+--
+
+## `querySelector`
+
+```html
+<html>
+  <body>
+    <h1 id="title">The title</h1>
+    <p className="message">foo</p>
+    <p>bar</p>
+    <p className="message">baz</p>
+  </body>
+</html>
+```
+
+```js
+// returns a single Node
+var titleElement = document.querySelector('#title');
+
+// returns a single Node, but which one?
+var messageElement = document.querySelector('.message');
+```
+
+--
+
+## `querySelectorAll`
+
+```html
+<html>
+  <body>
+    <h1 id="title">The title</h1>
+    <p className="message">foo</p>
+    <p>bar</p>
+    <p className="message">baz</p>
+  </body>
+</html>
+```
+
+```js
+// returns a NodeList of 2 elements
+var messageElements = document.querySelectorAll('.message');
+
+// returns a NodeList of 3 elements
+var allParagraphElements = document.querySelectorAll('p');
 ```
 
 --
@@ -185,7 +250,7 @@ document.querySelector('#header').appendChild(node);
 - [Form Validation](https://formvalidation.io/guide/plugins/bootstrap/)
 - [Dynamic Navigation](https://generalassemb.ly/education/digital-marketing)
 
---
+---
 
 ### How do we add JavaScript to a webpage?
 
