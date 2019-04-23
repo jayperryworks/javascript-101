@@ -47,7 +47,7 @@ It isn't about the programming language - _it's a way of thinking._
 
 - Insanely popular
 - High level syntax, low(ish) barrier to entry
-- The only language that runs in the browser
+- One of two languages that run in the browser (the other is WebAssembly)
 - Can be used "server-side" or "client-side"
 
 Note:
