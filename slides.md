@@ -185,9 +185,9 @@ document.querySelector('body').appendChild(pNode);
 <html>
   <body>
     <h1 id="title">The title</h1>
-    <p className="message">foo</p>
+    <p class="message">foo</p>
     <p>bar</p>
-    <p className="message">baz</p>
+    <p class="message">baz</p>
   </body>
 </html>
 ```
@@ -205,9 +205,9 @@ var titleElement = document.getElementById('title');
 <html>
   <body>
     <h1 id="title">The title</h1>
-    <p className="message">foo</p>
+    <p class="message">foo</p>
     <p>bar</p>
-    <p className="message">baz</p>
+    <p class="message">baz</p>
   </body>
 </html>
 ```
@@ -228,9 +228,9 @@ var messageElement = document.querySelector('.message');
 <html>
   <body>
     <h1 id="title">The title</h1>
-    <p className="message">foo</p>
+    <p class="message">foo</p>
     <p>bar</p>
-    <p className="message">baz</p>
+    <p class="message">baz</p>
   </body>
 </html>
 ```
