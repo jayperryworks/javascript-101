@@ -1,5 +1,6 @@
-
 # JavaScript 101
+
+**Setup**: Please create an account on [CodePen](https://codepen.io) at https://codepen.io
 
 ---
 
@@ -443,7 +444,8 @@ HTML
 
 ## Traffic light
 
-http://codepen.io/ericmasiello/pen/vxbgXo
+[http://bit.ly/34QUdU9](https://codepen.io/inkpixelswords/pen/RwbeWjQ)
+
 - Fork this on Codepen
 
 --
@@ -642,7 +644,8 @@ function turnLightsOff() {
 
 ## Score keeper
 
-[CodePen](https://codepen.io/ericmasiello/pen/VWXWEB?editors=1010)
+[http://bit.ly/34Lrz6V](https://codepen.io/inkpixelswords/pen/WNeaQdW)
+
 - Fork this on Codepen
 
 --
