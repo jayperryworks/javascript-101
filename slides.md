@@ -3,16 +3,16 @@
 
 ---
 
-## About me 🤓
+## My name is Jay
 
-* @ericmasiello
-* UI Architect @ Vistaprint Digital
-* Front-End Web Development (FEWD) Instructor at General Assembly
-* Co-Author of _Mastering React Native_
+* @inkpixelswords
+* Design Director at Bivee
+* I live in Ellicott City (near Baltimore) with my wife, daughter, and giant dog
+* I love pictures, words, and all the ways they can work together
 
 --
 
-## Your turn to share 🤗
+## Your turn to share
 * Your name
 * Any programming experience? (HTML, JavaScript, C, etc.)
 * What brought you here today
@@ -701,5 +701,5 @@ node add.js 3 4
 
 ---
 
-## Thank you! 🙏🏼🙏🏼🙏🏼
+## Thank you!
 
