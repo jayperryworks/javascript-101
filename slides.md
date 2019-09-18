@@ -699,9 +699,9 @@ node add.js 3 4
 - [daverupert.com](https://daverupert.com/)
 - [sarahdrasnerdesign.com](https://sarahdrasnerdesign.com/)
 - **In-person Courses**
-- [Web Development Immersive (Full Time)](https://generalassemb.ly/education/web-development-immersive)
 - [Front End Development (Part time)](https://generalassemb.ly/education/front-end-web-development)
 - [JavaScript (Part Time)](https://generalassemb.ly/education/javascript-development)
+- [React Development (Part Time)](https://generalassemb.ly/education/react-development)
 
 ---
 
