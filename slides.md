@@ -5,17 +5,10 @@
 
 ## My name is Jay
 
-* @inkpixelswords
+* [@inkpixelswords](https://twitter.com/inkpixelswords)
 * Design Director at Bivee
 * I live in Ellicott City (near Baltimore) with my wife, daughter, and giant dog
 * I love pictures, words, and all the ways they can work together
-
---
-
-## Your turn to share
-* Your name
-* Any programming experience? (HTML, JavaScript, C, etc.)
-* What brought you here today
 
 ---
 
@@ -32,7 +25,9 @@
 
 ## Setting expectations
 
-2 hours is not a lot of time
+- This is a beginner class and we'll stick to basics
+- Only assuming basic knowledge of HTML and CSS
+- There will be a Q&A session at the end
 
 
 ---
@@ -280,7 +275,7 @@ Put it right before the closing `</body>` element
 
 "...set of rules that defines the combinations of symbols that are considered to be a correctly structured \[code\] in that language."
 
-\- [Wikipedia](https://en.wikipedia.org/wiki/Syntax_(programming_languages)
+\- [Wikipedia](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 
 
 Note:
@@ -683,6 +678,14 @@ function turnLightsOff() {
 ```
 node add.js 3 4
 ```
+
+---
+
+## Please share your feedback
+
+[www.ga.co/introclass](www.ga.co/introclass)
+
+(Mobile- and laptop-friendly)
 
 ---
 
