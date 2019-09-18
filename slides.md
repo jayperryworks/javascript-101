@@ -691,24 +691,17 @@ node add.js 3 4
 
 ## Resources
 
-### Websites
+- **Websites**
 - [alistapart.com/](https://alistapart.com/)
 - [css-tricks.com/](https://css-tricks.com/)
-
-### Developers/heros
-- [lea.verou.me](http://lea.verou.me)
-- [sarasoueidan.com](https://sarasoueidan.com/)
+- **Developers/heros**
 - [hugogiraudel.com](https://hugogiraudel.com)
 - [daverupert.com](https://daverupert.com/)
 - [sarahdrasnerdesign.com](https://sarahdrasnerdesign.com/)
-
-### Podcast
-- [shoptalkshow.com/](https://shoptalkshow.com/)
-
-### In-person Courses
-* [Web Development Immersive (Full Time)](https://generalassemb.ly/education/web-development-immersive)
-* [Front End Development (Part time)](https://generalassemb.ly/education/front-end-web-development)
-* [JavaScript (Part Time)](https://generalassemb.ly/education/javascript-development)
+- **In-person Courses**
+- [Web Development Immersive (Full Time)](https://generalassemb.ly/education/web-development-immersive)
+- [Front End Development (Part time)](https://generalassemb.ly/education/front-end-web-development)
+- [JavaScript (Part Time)](https://generalassemb.ly/education/javascript-development)
 
 ---
 
