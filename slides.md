@@ -22,6 +22,16 @@
 5. JavaScript variables and data types
 6. BONUS: Node.js
 
+Note:
+1. Intro **5 min**
+1. What is JavaScript? **10 min**
+2. JavaScript & the DOM **15 min**
+3. JavaScript syntax **15 min**
+4. Responding to "events" **30 min**
+5. JavaScript variables and data types **30 min**
+6. BONUS: Node.js **10 min**
+7. Closing & Q&A **5 min**
+
 ---
 
 ## Setting expectations
@@ -276,7 +286,7 @@ Put it right before the closing `</body>` element
 
 "...set of rules that defines the combinations of symbols that are considered to be a correctly structured \[code\] in that language."
 
-\- [Wikipedia](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
+\- [Wikipedia](https://en.wikipedia.org/wiki/Syntax_%28programming_languages%29)
 
 
 Note:
