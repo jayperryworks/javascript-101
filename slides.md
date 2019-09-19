@@ -696,7 +696,7 @@ node add.js 3 4
 
 ## Please share your feedback
 
-[www.ga.co/introclass](www.ga.co/introclass)
+[www.ga.co/introclass](http://www.ga.co/introclass)
 
 (Mobile- and laptop-friendly)
 
